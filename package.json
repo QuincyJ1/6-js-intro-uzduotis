@@ -1,0 +1,22 @@
+{
+  "name": "6-js-intro-uzduotis",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "index": "nodemon ./index.js",
+    "table2":"nodemon ./tables/table2.js",
+    "table1":"nodemon ./tables/table1.js",
+    "numbers": "nodemon ./numbers/numbers.js", 
+    "multiplier": "nodemon ./numbers/multiplier",
+    "dev": "nodemon", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dainius",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
